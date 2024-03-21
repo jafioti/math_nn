@@ -1,11 +1,11 @@
 [package]
-name = "adder"
+name = "math_nn"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-dfdx = {git="https://github.com/coreylowman/dfdx"}
+dfdx = {git="https://github.com/coreylowman/dfdx", rev="4722a99d303f347d6088d95867d007c75ca6dd78"}
 rand = "0.8.5"
 num = "0.4.0"
